@@ -1,9 +1,9 @@
 a = raw_input()
 b = raw_input()
 c = raw_input()
-if(a>b):
+if(a>b and a>c):
 	print (a)
-elif(b>c):
+elif(b>c and b>a):
 	print (b)
 else:
 	print (c)
