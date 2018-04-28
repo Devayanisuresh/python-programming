@@ -1,1 +1,2 @@
-print len(raw_input().split(" "))
+a=len(raw_input().split(" "))
+print (a)
